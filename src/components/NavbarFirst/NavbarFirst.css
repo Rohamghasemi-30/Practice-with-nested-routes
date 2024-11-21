@@ -1,0 +1,64 @@
+@font-face{
+    src: url(../../fonts/Estedad-Regular.ttf);
+    font-family: Estedad-Regular;
+}
+
+.fisrt-nav{
+    background-color: #fff;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+}
+
+.login{
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login button{
+    border: none;
+    padding: 2px;
+}
+
+.login button:nth-child(1){
+    width: 162px;
+    height: 40px;
+    border-radius: 12px;
+    font-family: Estedad-Regular;
+    background-color: #9196c220;
+}
+
+.login button:nth-child(1):hover{
+    background-color: #ffcf9c70;
+    transition: all 0.3s;
+}
+
+.login button:nth-child(2){
+    border-radius: 12px;
+    font-family: Estedad-Regular;
+    background-color: #9196c220;
+    padding: 0px 8px 0px 8px;
+
+}
+
+.searchbox{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.searchbox input{
+    border: none;
+    outline: none;
+    background-color: #9196c220;
+    width: 80%;
+    font-family: Estedad-Regular;
+    direction: rtl;
+    padding: 8px;
+    border-radius: 15px;
+}

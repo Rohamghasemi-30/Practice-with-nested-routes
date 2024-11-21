@@ -1,0 +1,9 @@
+.container-blog{
+    font-family: Estedad-Regular;
+    background-color: #fff;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

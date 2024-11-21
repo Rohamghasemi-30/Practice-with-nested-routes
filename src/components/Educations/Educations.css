@@ -1,0 +1,31 @@
+.container-box{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-box a{
+    text-decoration: none;
+    color: #4e4e4e;
+}
+
+.education{
+    width: 350px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: Estedad-Regular;
+}
+
+.education img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.education p{
+    text-align: end;
+}

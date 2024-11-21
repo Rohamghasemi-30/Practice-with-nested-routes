@@ -1,0 +1,42 @@
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-home{
+    width: 95%;
+    height: 350px;
+    background-color: #ffdfd3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-family: Estedad-Regular;
+    text-align: center;
+}
+
+.text-home{
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: column;
+}
+
+.text-home button{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    font-family: Estedad-Regular;
+
+}
+
+.image-home img{
+    width: 280px;
+    height: 336px;
+}
